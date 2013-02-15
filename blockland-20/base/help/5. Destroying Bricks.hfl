@@ -1,0 +1,11 @@
+<lmargin%:3><rmargin%:97><tab:25,250>
+<font:Arial Bold:20>Destroying Bricks<font:Arial:16>
+
+<lmargin%:3><font:Arial Bold:16>Undo<font:Arial:16>
+<lmargin%:10><font:Arial:16>Press <color:0000FF>Ctrl Z<color:000000> to undo your last action.
+
+<lmargin%:3><font:Arial Bold:16>The Hammer<font:Arial:16>
+<lmargin%:10>The hammer is in the tools list (Press <color:0000FF>Q<color:000000> and use the <color:0000FF>Mouse Wheel<color:000000>).  The hammer can only destroy bricks that are exposed on either the top of the bottom.  Be careful, any bricks that are left floating will also be destroyed.
+
+<lmargin%:3><font:Arial Bold:16>The Wand<font:Arial:16>
+<lmargin%:10>Type <color:0000FF>/wand<color:000000> into the chat (Press <color:0000FF>T<color:000000>) to activate the wand.  The wand destroys any brick it hits.  Be careful!

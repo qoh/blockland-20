@@ -1,0 +1,38 @@
+<lmargin%:3><rmargin%:97><tab:25,250>
+<font:Arial Bold:20>Getting Into the Game<font:Arial:16>
+
+<lmargin%:3><font:Arial Bold:16>Join a Game<font:Arial:16><color:FF0000> - The easiest way to play with other people online is to join a server.<color:000000>
+
+<lmargin%:10><font:Arial Bold:16>1.<font:Arial:16><lmargin%:14>From the main menu click <color:0000FF>Join a Game<color:000000>
+<lmargin%:10><font:Arial Bold:16>2.<font:Arial:16><lmargin%:14>Wait while the server info is downloaded. It could take several minutes.
+<lmargin%:10><font:Arial Bold:16>3.<font:Arial:16><lmargin%:14>Select a server from the list and click <color:0000FF>Join Server<color:000000>
+
+
+<lmargin%:3><font:Arial Bold:16>Play Offline<font:Arial:16><color:FF0000> - You can play all by yourself.<color:000000>
+
+<lmargin%:10><font:Arial Bold:16>1.<font:Arial:16><lmargin%:14>From the main menu click <color:0000FF>Start a Game<color:000000>
+<lmargin%:10><font:Arial Bold:16>2.<font:Arial:16><lmargin%:14>Select the mission you want to play
+<lmargin%:10><font:Arial Bold:16>3.<font:Arial:16><lmargin%:14>Make sure <color:0000FF>Single Player<color:000000> is selected
+<lmargin%:10><font:Arial Bold:16>4.<font:Arial:16><lmargin%:14>Click <color:0000FF>Launch Game >><color:000000>
+
+
+<lmargin%:3><font:Arial Bold:16>Host an Online Game<font:Arial:16><color:FF0000> - This is a little more complicated.<color:000000>
+
+<lmargin%:10><font:Arial Bold:16>1.<font:Arial:16><lmargin%:14>If you are behind a Cable/DSL router you will need to forward some ports.  
+
+You will need to forward one port for every user you want to have connected, starting at 28000.  So if you want to host an 8 player server, you will need to forward ports 28000-28007.  
+
+There is an online tutorial for this <a:www.blockland.us/portForward/>HERE</a>
+
+<lmargin%:10><font:Arial Bold:16>2.<font:Arial:16><lmargin%:14>If you are running any security software such as Windows Firewall, ZoneAlarm or Norton, you will have to set it to allow incoming connections to Blockland.exe on those ports.
+
+<lmargin%:10><font:Arial Bold:16>3.<font:Arial:16><lmargin%:14>After you set up your network hardware and security software, select <color:0000FF>Internet<color:000000> as the Server Type from the Start Mission dialog and click <color:0000FF>Launch Game >><color:000000>.
+
+
+<lmargin%:3><font:Arial Bold:16>Host a Dedicated Server<font:Arial:16><color:FF0000> - Got an extra computer?<color:000000>
+
+<lmargin%:10>If you have a spare computer and enough bandwidth, you can host a dedicated server.  If you want to host a game that is running all the time or one with a lot of people in it, a dedicated server is the best solution.  
+
+To start a dedicated server, double click the <color:0000FF>dedicated.bat<color:000000> file in the Blockland directory.  
+
+The configuration options for the server are contained in the file <color:0000FF>base/server/prefs.cs<color:000000>.  You can edit this file in notepad or any other text editor.  

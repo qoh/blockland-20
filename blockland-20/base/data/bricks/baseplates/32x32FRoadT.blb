@@ -1,0 +1,531 @@
+32 32 1
+SPECIAL
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddddddddddd
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+bbbbbbbbbddddddddddddddbbbbbbbbb
+
+1 
+
+0 0 0
+32 32 1
+------------------ Top Quads:
+14
+
+TEX:TOP
+POSITION:
+-16 -16 0.5
+-16 16 0.5
+-7 16 0.5
+-7 -16 0.5
+UV COORDS:
+0 -32
+0 0
+-9 0
+-9 -32
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+			//T grass far
+TEX:TOP
+POSITION:
+7 7 0.5
+7 16 0.5
+16 16 0.5
+16 7 0.5
+UV COORDS:
+9 -9
+9 0
+0 0
+0 -9
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+			//T grass near
+TEX:TOP
+POSITION:
+7 -16 0.5
+7 -7 0.5
+16 -7 0.5
+16 -16 0.5
+UV COORDS:
+9 -32
+9 -23
+0 -23
+0 -32
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+		//T near lane
+TEX:RAMP
+POSITION:
+7.5 -0.3 0.5
+16 -0.3 0.5
+16 -6.3 0.5
+7 -6.3 0.5
+UV COORDS:
+7.5 -0.3
+16 -0.3
+16 -6.3
+7 -6.3
+COLORS:
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+		//T far lane
+TEX:RAMP
+POSITION:
+7 6.3 0.5
+16 6.3 0.5
+16 0.3 0.5
+7.5 0.3 0.5
+UV COORDS:
+7 6.3
+16 6.3
+16 0.3
+7.5 0.3
+COLORS:
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+			//T lane patch
+TEX:RAMP
+POSITION:
+7 -6.3 0.5
+7 6.3 0.5
+7.5 0.3 0.5
+7.5 -0.3 0.5
+UV COORDS:
+7 -6.3
+7 6.3
+7.5 0.3
+7.5 -0.3
+COLORS:
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+		//T near stripe
+TEX:RAMP
+POSITION:
+7 -7 0.5
+7 -6.3 0.5
+16 -6.3 0.5
+16 -7 0.5
+UV COORDS:
+7 -7
+7 -6.3
+16 -6.3
+16 -7
+COLORS:
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+		//T far stripe
+TEX:RAMP
+POSITION:
+7 6.3 0.5
+7 7 0.5
+16 7 0.5
+16 6.3 0.5
+UV COORDS:
+7 6.3
+7 7
+16 7
+16 6.3
+COLORS:
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+		//T center stripe
+TEX:RAMP
+POSITION:
+7.5 -0.3 0.5	
+7.5 0.3 0.5
+16 0.3 0.5
+16 -0.3 0.5
+UV COORDS:
+7.5 -0.3
+7.5 0.3
+16 0.3
+16 -0.3
+COLORS:
+0.973 0.800 0.000 1
+0.973 0.800 0.000 1
+0.973 0.800 0.000 1
+0.973 0.800 0.000 1
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+			//left stripe
+TEX:RAMP
+POSITION:
+-7 -16 0.5
+-7 16 0.5
+-6.3 16 0.5
+-6.3 -16 0.5
+UV COORDS:
+-7 -16
+-7 16
+-6.3 16
+-6.3 -16
+COLORS:
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+				//middle stripe
+TEX:RAMP
+POSITION:
+-0.3 -16 0.5
+-0.3 16 0.5
+0.3 16 0.5
+0.3 -16 0.5
+UV COORDS:
+-0.3 -16
+-0.3 16
+0.3 16
+0.3 -16
+COLORS:
+0.973 0.800 0.000 1
+0.973 0.800 0.000 1
+0.973 0.800 0.000 1
+0.973 0.800 0.000 1
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+			//right stripe
+TEX:RAMP
+POSITION:
+6.3 -16 0.5
+6.3 16 0.5
+7 16 0.5
+7 -16 0.5
+UV COORDS:
+6.3 -16
+6.3 16
+7 16
+7 -16
+COLORS:
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+0.996 0.996 0.910 1.000
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+			//lanes
+TEX:RAMP
+POSITION:
+-6.3 -16 0.5
+-6.3 16 0.5
+-0.3 16 0.5
+-0.3 -16 0.5
+UV COORDS:
+-6.3 -16
+-6.3 16
+-0.3 16
+-0.3 -16
+COLORS:
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+
+TEX:RAMP
+POSITION:
+0.3 -16 0.5
+0.3 16 0.5
+6.3 16 0.5
+6.3 -16 0.5
+UV COORDS:
+0.3 -16
+0.3 16
+6.3 16
+6.3 -16
+COLORS:
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+0.200 0.200 0.200 1.000
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+------------------ Bottom Quads:
+5
+
+TEX:BOTTOMLOOP
+POSITION:
+-15.5 -15.5 -0.5
+15.5 -15.5 -0.5
+15.5 15.5 -0.5
+-15.5 15.5 -0.5
+UV COORDS:
+0 0
+0 31
+31 31
+31 0
+NORMALS:
+0 0 -1
+0 0 -1
+0 0 -1
+0 0 -1
+
+TEX:BOTTOMEDGE
+POSITION:
+-16 -16 -0.5
+16 -16 -0.5
+15.5 -15.5 -0.5
+-15.5 -15.5 -0.5
+UV COORDS:
+-0.5 0
+31.5 0
+31 0.5
+0 0.5
+NORMALS:
+0 0 -1
+0 0 -1
+0 0 -1
+0 0 -1
+
+TEX:BOTTOMEDGE
+POSITION:
+-15.5 15.5 -0.5
+15.5 15.5 -0.5
+16 16 -0.5
+-16 16 -0.5
+UV COORDS:
+0 0.5
+31 0.5
+31.5 0
+-0.5 0
+NORMALS:
+0 0 -1
+0 0 -1
+0 0 -1
+0 0 -1
+
+TEX:BOTTOMEDGE
+POSITION:
+-15.5 -15.5 -0.5
+-15.5 15.5 -0.5
+-16 16 -0.5
+-16 -16 -0.5
+UV COORDS:
+0 0.5
+31 0.5
+31.5 0
+-0.5 0
+NORMALS:
+0 0 -1
+0 0 -1
+0 0 -1
+0 0 -1
+
+TEX:BOTTOMEDGE
+POSITION:
+16 -16 -0.5
+16 16 -0.5
+15.5 15.5 -0.5
+15.5 -15.5 -0.5
+UV COORDS:
+-0.5 0
+31.5 0
+31 0.5
+0 0.5
+NORMALS:
+0 0 -1
+0 0 -1
+0 0 -1
+0 0 -1
+------------------ North Quads:
+1
+
+TEX:SIDE
+POSITION:
+-16 16 0.5
+-16 16 -0.5
+16 16 -0.5
+16 16 0.5
+UV COORDS:
+0.98 -0.09
+0.98  1.09
+0.02  1.09
+0.02 -0.09
+NORMALS:
+0 1 0
+0 1 0
+0 1 0
+0 1 0
+------------------ East Quads:
+1
+
+TEX:SIDE
+POSITION:
+16 16 0.5
+16 16 -0.5
+16 -16 -0.5
+16 -16 0.5
+UV COORDS:
+0.98 -0.09
+0.98  1.09
+0.02  1.09
+0.02 -0.09
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+------------------ South Quads:
+1
+
+TEX:SIDE
+POSITION:
+16 -16 0.5
+16 -16 -0.5
+-16 -16 -0.5
+-16 -16 0.5
+UV COORDS:
+0.98 -0.09
+0.98  1.09
+0.02  1.09
+0.02 -0.09
+NORMALS:
+0 -1 0
+0 -1 0
+0 -1 0
+0 -1 0
+------------------ West Quads:
+1
+
+TEX:SIDE
+POSITION:
+-16 -16 0.5
+-16 -16 -0.5
+-16 16 -0.5
+-16 16 0.5
+UV COORDS:
+0.98 -0.09
+0.98  1.09
+0.02  1.09
+0.02 -0.09
+NORMALS:
+-1 0 0
+-1 0 0
+-1 0 0
+-1 0 0
+------------------ Omni Quads:
+0

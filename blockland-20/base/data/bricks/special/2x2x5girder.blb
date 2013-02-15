@@ -1,0 +1,740 @@
+2 2 15
+SPECIAL
+
+uu
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+dd
+
+uu
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+XX
+dd
+
+1
+
+0 0 0
+2 2 15
+COVERAGE: //TBNESW 
+1 : 4
+1 : 4
+0 : 30
+0 : 30
+0 : 30
+0 : 30
+----------------top quads:
+1
+			//inside bottom
+TEX:TOP
+POSITION:
+-1 -1 7.5
+-1 1 7.5
+1 1 7.5
+1 -1 7.5
+UV COORDS:
+2 0
+2 2
+0 2
+0 0
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+----------------bottom quads:
+5
+
+TEX:BOTTOMLOOP
+POSITION:
+-0.5 -0.5 -7.5
+0.5 -0.5 -7.5
+0.5 0.5 -7.5
+-0.5 0.5 -7.5
+UV COORDS:
+0 0
+0 1
+1 1
+1 0
+NORMALS:
+0 0 -1
+0 0 -1
+0 0 -1
+0 0 -1
+
+TEX:BOTTOMEDGE
+POSITION:
+  -1 -1   -7.5
+   1 -1   -7.5
+ 0.5 -0.5 -7.5
+-0.5 -0.5 -7.5
+UV COORDS:
+-0.5 0
+1.5 0
+1 0.5
+0 0.5
+NORMALS:
+0 0 -1
+0 0 -1
+0 0 -1
+0 0 -1
+
+TEX:BOTTOMEDGE
+POSITION:
+-0.5 0.5 -7.5
+ 0.5 0.5 -7.5
+ 1   1   -7.5
+-1   1   -7.5
+UV COORDS:
+0 0.5
+1 0.5
+1.5 0
+-0.5 0
+NORMALS:
+0 0 -1
+0 0 -1
+0 0 -1
+0 0 -1
+
+TEX:BOTTOMEDGE
+POSITION:
+-0.5 -0.5 -7.5
+-0.5  0.5 -7.5
+-1    1   -7.5
+-1   -1   -7.5
+UV COORDS:
+0 0.5
+1 0.5
+1.5 0
+-0.5 0
+NORMALS:
+0 0 -1
+0 0 -1
+0 0 -1
+0 0 -1
+
+TEX:BOTTOMEDGE
+POSITION:
+1   -1   -7.5
+1    1   -7.5
+0.5  0.5 -7.5
+0.5 -0.5 -7.5
+UV COORDS:
+-0.5 0
+1.5 0
+1 0.5
+0 0.5
+NORMALS:
+0 0 -1
+0 0 -1
+0 0 -1
+0 0 -1
+----------------north quads:
+5
+
+TEX:SIDE
+POSITION:
+-1 1 -6.5
+-1 1 -7.5
+1 1 -7.5
+1 1 -6.5
+UV COORDS:
+1 -0.09
+1 1.09
+0 1.09
+0 -0.09
+NORMALS:
+0 1 0
+0 1 0
+0 1 0
+0 1 0
+
+TEX:SIDE
+POSITION:
+-1 1 7.5
+-1 1 6.5
+1 1 6.5
+1 1 7.5
+UV COORDS:
+1 -0.09
+1 1.09
+0 1.09
+0 -0.09
+NORMALS:
+0 1 0
+0 1 0
+0 1 0
+0 1 0
+			//vertical lattice bar
+TEX:SIDE
+POSITION:
+-1 1  6.5
+-1 1 -6.5
+-0.75 1 -6.5
+-0.75 1  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 1 0
+0 1 0
+0 1 0
+0 1 0
+
+TEX:SIDE
+POSITION:
+0.75 1 6.5
+0.75 1 -6.5
+1 1 -6.5
+1 1  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 1 0
+0 1 0
+0 1 0
+0 1 0
+			//cross lattice bar
+TEX:SIDE
+POSITION:
+0.350 1  6.5
+-0.75 1 -6.5
+-0.350 1 -6.5
+0.75 1  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 1 0
+0 1 0
+0 1 0
+0 1 0
+----------------east quads:
+5
+
+TEX:SIDE
+POSITION:
+1 -1 -6.5
+1 1 -6.5
+1 1 -7.5
+1 -1 -7.5
+UV COORDS:
+0 -0.09
+1 -0.09
+1 1.09
+0 1.09
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+1 -1 7.5
+1 1 7.5
+1 1 6.5
+1 -1 6.5
+UV COORDS:
+0 -0.09
+1 -0.09
+1 1.09
+0 1.09
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+			//vertical lattice bar
+TEX:SIDE
+POSITION:
+1 -0.75  6.5
+1 -0.75 -6.5
+1 -1 -6.5
+1 -1  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+1 1  6.5
+1 1 -6.5
+1 0.75 -6.5
+1 0.75 6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+			//cross lattice bar 
+TEX:SIDE
+POSITION:
+1 0.75   6.5
+1  -0.350  -6.5
+1  -0.75  -6.5
+1 0.350   6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+----------------south quads:
+5
+
+TEX:SIDE
+POSITION:
+1 -1 -6.5
+1 -1 -7.5
+-1 -1 -7.5
+-1 -1 -6.5
+UV COORDS:
+1 -0.09
+1 1.09
+0 1.09
+0 -0.09
+NORMALS:
+0 -1 0
+0 -1 0
+0 -1 0
+0 -1 0
+
+TEX:SIDE
+POSITION:
+1 -1 7.5
+1 -1 6.5
+-1 -1 6.5
+-1 -1 7.5
+UV COORDS:
+1 -0.09
+1 1.09
+0 1.09
+0 -0.09
+NORMALS:
+0 -1 0
+0 -1 0
+0 -1 0
+0 -1 0
+			//vertical lattice bar
+TEX:SIDE
+POSITION:
+-0.75 -1  6.5
+-0.75 -1 -6.5
+-1 -1 -6.5
+-1 -1  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 -1 0
+0 -1 0
+0 -1 0
+0 -1 0
+
+TEX:SIDE
+POSITION:
+1 -1  6.5
+1 -1 -6.5
+0.75 -1 -6.5
+0.75 -1 6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 -1 0
+0 -1 0
+0 -1 0
+0 -1 0
+			//cross lattice bar 
+TEX:SIDE
+POSITION:
+ -0.350 -1  6.5
+0.75 -1 -6.5
+0.350 -1 -6.5
+ -0.75 -1  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 -1 0
+0 -1 0
+0 -1 0
+0 -1 0
+----------------west quads:
+5
+
+TEX:SIDE
+POSITION:
+-1 -1 -7.5
+-1 1 -7.5
+-1 1 -6.5
+-1 -1 -6.5
+UV COORDS:
+1 1.09
+0 1.09
+0 -0.09
+1 -0.09
+NORMALS:
+-1 0 0
+-1 0 0
+-1 0 0
+-1 0 0
+
+TEX:SIDE
+POSITION:
+-1 -1 6.5
+-1 1 6.5
+-1 1 7.5
+-1 -1 7.5
+UV COORDS:
+1 1.09
+0 1.09
+0 -0.09
+1 -0.09
+NORMALS:
+-1 0 0
+-1 0 0
+-1 0 0
+-1 0 0
+			//vertical lattice bar
+TEX:SIDE
+POSITION:
+-1 -1  6.5
+-1 -1 -6.5
+-1 -0.75 -6.5
+-1 -0.75  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+-1 0 0
+-1 0 0
+-1 0 0
+-1 0 0
+
+TEX:SIDE
+POSITION:
+-1 0.75 6.5
+-1 0.75 -6.5
+-1 1 -6.5
+-1 1  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+-1 0 0
+-1 0 0
+-1 0 0
+-1 0 0
+			//cross lattice bar 
+TEX:SIDE
+POSITION:
+-1 -0.75   6.5
+-1  0.350  -6.5
+-1  0.75  -6.5
+-1 -0.350   6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+-1 0 0
+-1 0 0
+-1 0 0
+-1 0 0
+----------------omni quads:
+14
+			//inside bottom
+TEX:SIDE
+POSITION:
+-1 -1 -6.5
+-1 1 -6.5
+1 1 -6.5
+1 -1 -6.5
+UV COORDS:
+0 1
+0 0
+1 0
+1 1
+NORMALS:
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+			//inside top
+TEX:SIDE
+POSITION:
+1 -1 6.5	
+1 1 6.5
+-1 1 6.5
+-1 -1 6.5
+UV COORDS:
+1 1
+1 0
+0 0
+0 1
+NORMALS:
+0 0 -1
+0 0 -1
+0 0 -1
+0 0 -1
+				//vertical lattice bar - inside NORTH
+TEX:SIDE
+POSITION:
+-1 -0.75  6.5
+-1 -0.75 -6.5
+-0.75 -0.75 -6.5
+-0.75 -0.75  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 1 0
+0 1 0
+0 1 0
+0 1 0
+
+TEX:SIDE
+POSITION:
+0.75 -0.75 6.5
+0.75 -0.75 -6.5
+1 -0.75 -6.5
+1 -0.75  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 1 0
+0 1 0
+0 1 0
+0 1 0
+			//vertical lattice bar - inside EAST
+TEX:SIDE
+POSITION:
+-0.75 -0.75  6.5
+-0.75 -0.75 -6.5
+-0.75 -1 -6.5
+-0.75 -1  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+
+TEX:SIDE
+POSITION:
+-0.75 1  6.5
+-0.75 1 -6.5
+-0.75 0.75 -6.5
+-0.75 0.75 6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0
+		//vertical lattice bar - inside SOUTH
+TEX:SIDE
+POSITION:
+-0.75 0.75  6.5
+-0.75 0.75 -6.5
+-1 0.75 -6.5
+-1 0.75  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 -1 0
+0 -1 0
+0 -1 0
+0 -1 0
+
+TEX:SIDE
+POSITION:
+1 0.75  6.5
+1 0.75 -6.5
+0.75 0.75 -6.5
+0.75 0.75 6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 -1 0
+0 -1 0
+0 -1 0
+0 -1 0
+			//vertical lattice bar - inside WEST
+TEX:SIDE
+POSITION:
+0.75 -1  6.5
+0.75 -1 -6.5
+0.75 -0.75 -6.5
+0.75 -0.75  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+-1 0 0
+-1 0 0
+-1 0 0
+-1 0 0
+
+TEX:SIDE
+POSITION:
+0.75 0.75 6.5
+0.75 0.75 -6.5
+0.75 1 -6.5
+0.75 1  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+-1 0 0
+-1 0 0
+-1 0 0
+-1 0 0
+			//cross lattice bar
+TEX:SIDE
+POSITION:
+0.75 1  6.5
+-0.350 1 -6.5
+-0.75 1 -6.5
+0.350 1  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 -1 0
+0 -1 0
+0 -1 0
+0 -1 0
+			//cross lattice bar 
+TEX:SIDE
+POSITION:
+1 0.350   6.5
+1  -0.75  -6.5
+1  -0.350  -6.5
+1 0.75   6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+-1 0 0
+-1 0 0
+-1 0 0
+-1 0 0
+			//cross lattice bar 
+TEX:SIDE
+POSITION:
+ -0.75 -1  6.5
+0.350 -1 -6.5
+0.75 -1 -6.5
+ -0.350 -1  6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+0 1 0
+0 1 0
+0 1 0
+0 1 0
+			//cross lattice bar 
+TEX:SIDE
+POSITION:
+-1 -0.350   6.5
+-1  0.75  -6.5
+-1  0.350  -6.5
+-1 -0.75   6.5
+UV COORDS:
+0.8  0.2
+0.8  0.8
+0.2  0.8
+0.2  0.2
+NORMALS:
+1 0 0
+1 0 0
+1 0 0
+1 0 0

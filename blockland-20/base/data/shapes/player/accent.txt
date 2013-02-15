@@ -1,0 +1,7 @@
+//first line = all accents, following lines = accents allowed for the given hat
+none plume triplume septplume visor
+helmet none visor
+pointyHelmet none
+scoutHat none plume triplume septplume
+copHat none plume triplume septplume
+knitHat none plume triplume septplume

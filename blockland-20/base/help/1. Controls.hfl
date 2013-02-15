@@ -1,0 +1,39 @@
+<lmargin%:3><rmargin%:97><tab:125,250>
+<font:Arial Bold:20>Default Game Controls<font:Arial:16>
+
+<color:FF0000>Movement:
+-----------------------------------------------------------------------
+<color:0000FF><font:Arial Bold:16>W A S D<font:Arial:16><color:000000>	Move
+<color:0000FF><font:Arial Bold:16>Space<font:Arial:16><color:000000>	Jump
+<color:0000FF><font:Arial Bold:16>Shift<font:Arial:16><color:000000>	Crouch
+<color:0000FF><font:Arial Bold:16>RMouse<font:Arial:16><color:000000>	Jet
+
+<color:FF0000>Action:
+-----------------------------------------------------------------------
+<color:0000FF><font:Arial Bold:16>LMouse<font:Arial:16><color:000000>	Fire
+<color:0000FF><font:Arial Bold:16>Use Bricks<font:Arial:16><color:000000>	1
+<color:0000FF><font:Arial Bold:16>Use Tools<font:Arial:16><color:000000>	Q
+<color:0000FF><font:Arial Bold:16>Use Spraycan<font:Arial:16><color:000000>	E
+
+<color:FF0000>Building:
+-----------------------------------------------------------------------
+<color:0000FF><font:Arial Bold:16>Brick Menu<font:Arial:16><color:000000>	B
+<color:0000FF><font:Arial Bold:16>Move Brick<font:Arial:16><color:000000>	NumPad
+<color:0000FF><font:Arial Bold:16>Plant Brick<font:Arial:16><color:000000>	NumPad Enter
+
+<color:FF0000>View:
+-----------------------------------------------------------------------
+<color:0000FF><font:Arial Bold:16>Mouse<font:Arial:16><color:000000>	Look
+<color:0000FF><font:Arial Bold:16>F<font:Arial:16><color:000000>	Zoom
+<color:0000FF><font:Arial Bold:16>Z<font:Arial:16><color:000000>	Free Look
+<color:0000FF><font:Arial Bold:16>Tab<font:Arial:16><color:000000>	1st/3rd Person Toggle
+<color:0000FF><font:Arial Bold:16>F8<font:Arial:16><color:000000>	(Admin only) Free Cam 
+<color:0000FF><font:Arial Bold:16>F7<font:Arial:16><color:000000>	(Admin only) Drop Player 
+
+<color:FF0000>Communication:
+-----------------------------------------------------------------------
+<color:0000FF><font:Arial Bold:16>Chat<font:Arial:16><color:000000>	T
+<color:0000FF><font:Arial Bold:16>Scroll Chat<font:Arial:16><color:000000>	PageUp / PageDown
+
+
+For more controls, see the "Controls" tab in the options menu.

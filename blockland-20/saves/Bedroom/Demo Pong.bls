@@ -1,0 +1,537 @@
+This is a Blockland save file.  You probably shouldn't modify it cause you'll screw it up.
+1
+
+0.898039 0.000000 0.000000 1.000000
+0.898039 0.898039 0.000000 1.000000
+0.000000 0.498039 0.247059 1.000000
+0.200000 0.000000 0.800000 1.000000
+0.898039 0.898039 0.898039 1.000000
+0.749020 0.749020 0.749020 1.000000
+0.498039 0.498039 0.498039 1.000000
+0.200000 0.200000 0.200000 1.000000
+0.392157 0.192157 0.000000 1.000000
+0.901961 0.337255 0.078431 1.000000
+0.749020 0.176471 0.482353 1.000000
+0.384314 0.000000 0.113725 1.000000
+0.129412 0.266667 0.266667 1.000000
+0.000000 0.137255 0.329412 1.000000
+0.101961 0.458824 0.764706 1.000000
+1.000000 1.000000 1.000000 1.000000
+0.078431 0.078431 0.078431 1.000000
+1.000000 1.000000 1.000000 0.247059
+0.921569 0.513726 0.674510 1.000000
+1.000000 0.603922 0.419608 1.000000
+1.000000 0.874510 0.611765 1.000000
+0.956863 0.874510 0.784314 1.000000
+0.784314 0.921569 0.486275 1.000000
+0.537255 0.694118 0.549020 1.000000
+0.556863 0.929412 0.956863 1.000000
+0.694118 0.658824 0.901961 1.000000
+0.874510 0.556863 0.956863 1.000000
+0.666667 0.000000 0.000000 0.698039
+1.000000 0.498039 0.000000 0.698039
+0.988235 0.956863 0.000000 0.698039
+0.000000 0.470588 0.192157 0.698039
+0.000000 0.200000 0.639216 0.698039
+0.592157 0.156863 0.392157 0.694118
+0.549020 0.698039 1.000000 0.698039
+0.847059 0.847059 0.847059 0.698039
+0.098039 0.098039 0.098039 0.698039
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+Linecount 148
+32x32 Base" -48 -130.5 286.5 0 1 13  0 0 1 1 1
+1x8" -52.75 -128.5 286.9 0 0 13  0 0 1 1 1
++-NTOBJECTNAME _pong_Bumper
++-EVENT	0	1	onProjectileHit	0	Projectile		Delete				
+1x3" -54.25 -134.75 286.9 1 0 16  0 0 1 1 1
+1x1" -48.25 -134.75 286.9 0 0 13  0 0 1 1 1
+1x1" -52.75 -126.25 286.9 0 0 13  0 0 1 1 1
+1x1" -48.25 -126.75 286.9 0 0 13  0 0 1 1 1
+1x8" -53.25 -128.5 286.9 0 0 16  0 0 1 1 1
+45° Ramp 1x" -50.5 -130.75 286.9 1 0 0  0 0 1 1 1
++-EVENT	0	1	onActivate	0	-1	_pong_ScoreA	setPrintCount	0			
++-EVENT	1	1	onActivate	0	-1	_pong_ScoreB	setPrintCount	0			
++-EVENT	2	1	onActivate	2000	-1	_pong_Serve	fireRelay				
++-EVENT	3	1	onActivate	0	-1	_pong_Bumper	setEventEnabled	0	0		
++-EVENT	4	1	onActivate	0	-1	_pong_WinLightB	setLight	-1			
++-EVENT	5	1	onActivate	0	-1	_pong_WinLightA	setLight	-1			
++-EVENT	6	1	onActivate	0	-1	_pong_WinLightA	setColorFX	0			
++-EVENT	7	1	onActivate	0	-1	_pong_WinLightB	setColorFX	0			
+1x4x5" -52.25 -132.5 288.1 0 0 17  0 0 0 1 0
+1x4x5" -52.25 -134.5 288.1 0 0 17  0 0 0 0 0
+1x3x5" -52.25 -130.75 288.1 0 0 17  0 0 0 1 0
+1x4x5" -52.25 -127 288.1 0 0 17  0 0 0 0 0
+1x1" -53.25 -130.75 286.9 0 0 16  0 0 1 1 1
+1x3" -54.25 -126.75 286.9 1 0 16  0 0 1 1 1
+1x4x5" -52.25 -129 288.1 0 0 17  0 0 0 1 0
+1x8" -53.25 -133 286.9 0 0 16  0 0 1 1 1
+1x8" -52.75 -133 286.9 0 0 13  0 0 1 1 1
++-NTOBJECTNAME _pong_Bumper
++-EVENT	0	1	onProjectileHit	0	Projectile		Delete				
+1x1" -52.75 -130.75 286.9 0 0 13  0 0 1 1 1
++-NTOBJECTNAME _pong_Serve
++-EVENT	0	1	onRelay	0	Self		spawnProjectile	0 5 1	pongProjectile	0 1 0.5	1
+1x1" -52.75 -135.25 286.9 0 0 13  0 0 1 1 1
+1x1" -54.75 -126.75 287.5 0 0 16  0 0 1 1 1
+1x1x5" -52.75 -135.25 288.7 0 0 13  0 0 1 1 1
+1x1" -52.75 -126.75 287.5 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _pong_PaddleB6
++-EVENT	0	1	onRelay	0	Self		setColor	15			
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onProjectileHit	0	-1	_pong_ScoreA	incrementPrintCount	1			
++-EVENT	3	1	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	1	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	0	onRelay	0	Self		setColor	16			
++-EVENT	6	0	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+1x4x5" -52.25 -129 291.1 0 0 17  0 0 0 1 0
+1x1" -53.25 -126.75 287.5 0 0 16  0 0 1 1 1
+1x4x5" -52.25 -127 291.1 0 0 17  0 0 0 0 0
+1x1" -53.25 -130.75 287.5 0 0 15  3 0 1 1 1
+1x1" -53.25 -131.25 287.5 0 0 16  0 0 1 1 1
+1x1" -54.75 -134.75 287.5 0 0 16  0 0 1 1 1
+1x3x5" -52.25 -130.75 291.1 0 0 17  0 0 0 1 0
+1x1" -53.25 -128.25 287.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -131.75 287.5 0 0 16  0 0 1 1 1
+1x4x5" -52.25 -132.5 291.1 0 0 17  0 0 0 1 0
+1x1" -53.25 -132.25 287.5 0 0 16  0 0 1 1 1
+1x1" -48.25 -126.75 287.5 0 0 13  0 0 1 1 1
+1x1" -53.25 -132.75 287.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -133.25 287.5 0 0 16  0 0 1 1 1
+1x1 Print" -53.75 -134.75 287.5 0 0 13 Letters/X 0 0 1 1 1
++-NTOBJECTNAME _pong_AU0
+1x1x5" -52.75 -126.25 288.7 0 0 13  0 0 1 1 1
+1x1" -53.25 -127.25 287.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -133.75 287.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -134.25 287.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -134.75 287.5 0 0 16  0 0 1 1 1
+1x1" -48.25 -134.75 287.5 0 0 13  0 0 1 1 1
+1x1 Print" -54.25 -134.75 287.5 0 0 13 Letters/D 0 0 1 1 1
++-NTOBJECTNAME _pong_AD6
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleA5	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleA6	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_AU5	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_AD7	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_AU4	setEventEnabled	0 1 2 3 4 5	0		
+1x1 Print" -53.75 -126.75 287.5 2 0 13 Letters/X 0 0 1 1 1
++-NTOBJECTNAME _pong_BU0
+1x1" -52.75 -134.75 287.5 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _pong_PaddleA6
++-EVENT	0	1	onRelay	0	Self		setColor	15			
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onProjectileHit	0	-1	_pong_ScoreB	incrementPrintCount	1			
++-EVENT	3	1	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	1	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	0	onRelay	0	Self		setColor	16			
++-EVENT	6	0	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+1x4x5" -52.25 -134.5 291.1 0 0 17  0 0 0 0 0
+1x1 Print" -54.25 -126.75 287.5 2 0 13 Letters/D 0 0 1 1 1
++-NTOBJECTNAME _pong_BD6
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleB5	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleB6	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_BU5	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_BD7	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_BU4	setEventEnabled	0 1 2 3 4 5	0		
+1x1" -53.25 -128.75 287.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -130.25 287.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -129.25 287.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -129.75 287.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -127.75 287.5 0 0 16  0 0 1 1 1
+1x1 Print" -54.25 -134.75 288.1 0 0 13 Letters/D 0 0 1 1 1
++-NTOBJECTNAME _pong_AD5
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleA4	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleA5	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_AU4	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_AD6	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_AU3	setEventEnabled	0 1 2 3 4 5	0		
+1x8" -53.25 -133 288.1 0 0 16  0 0 1 1 1
+1x1x5" -54.75 -126.75 289.3 0 0 16  0 0 1 1 1
+1x1" -52.75 -135.25 290.5 0 0 13  0 0 1 1 1
+1x1 Print" -48.25 -134.75 288.1 3 0 17 Letters/-minus 0 0 1 1 1
++-EVENT	0	1	onActivate	33	-1	_pong_AD2	fireRelay				
++-EVENT	1	1	onActivate	33	-1	_pong_AD3	fireRelay				
++-EVENT	2	1	onActivate	33	-1	_pong_AD4	fireRelay				
++-EVENT	3	1	onActivate	33	-1	_pong_AD5	fireRelay				
++-EVENT	4	1	onActivate	33	-1	_pong_AD6	fireRelay				
++-EVENT	5	1	onActivate	0	Self		setColorFX	3			
++-EVENT	6	1	onActivate	100	Self		setColorFX	0			
++-EVENT	7	1	onActivate	0	Self		cancelEvents				
+1x1 Print" -54.25 -126.75 288.1 2 0 13 Letters/D 0 0 1 1 1
++-NTOBJECTNAME _pong_BD5
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleB4	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleB5	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_BU4	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_BD6	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_BU3	setEventEnabled	0 1 2 3 4 5	0		
+1x1" -53.25 -130.75 288.1 0 0 15  3 0 1 1 1
+1x1x5" -54.75 -134.75 289.3 0 0 16  0 0 1 1 1
+1x1" -52.75 -134.75 288.1 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _pong_PaddleA5
++-EVENT	0	1	onRelay	0	Self		setColor	15			
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onProjectileHit	0	-1	_pong_ScoreB	incrementPrintCount	1			
++-EVENT	3	1	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	1	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	0	onRelay	0	Self		setColor	16			
++-EVENT	6	0	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+1x1" -52.75 -126.25 290.5 0 0 13  0 0 1 1 1
+1x8" -53.25 -128.5 288.1 0 0 16  0 0 1 1 1
+1x1" -52.75 -126.75 288.1 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _pong_PaddleB5
++-EVENT	0	1	onRelay	0	Self		setColor	15			
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onProjectileHit	0	-1	_pong_ScoreA	incrementPrintCount	1			
++-EVENT	3	1	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	1	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	0	onRelay	0	Self		setColor	16			
++-EVENT	6	0	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+1x1 Print" -53.75 -134.75 288.1 0 0 13 Letters/U 0 0 1 1 1
++-NTOBJECTNAME _pong_AU5
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleA5	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleA6	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_AU4	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_AD6	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_AD7	setEventEnabled	0 1 2 3 4 5	0		
+1x1 Print" -48.25 -126.75 288.1 3 0 17 Letters/-minus 0 0 1 1 1
++-EVENT	0	1	onActivate	33	-1	_pong_BD2	fireRelay				
++-EVENT	1	1	onActivate	33	-1	_pong_BD3	fireRelay				
++-EVENT	2	1	onActivate	33	-1	_pong_BD4	fireRelay				
++-EVENT	3	1	onActivate	33	-1	_pong_BD5	fireRelay				
++-EVENT	4	1	onActivate	33	-1	_pong_BD6	fireRelay				
++-EVENT	5	1	onActivate	0	Self		setColorFX	3			
++-EVENT	6	1	onActivate	100	Self		setColorFX	0			
++-EVENT	7	1	onActivate	0	Self		cancelEvents				
+1x1 Print" -53.75 -126.75 288.1 2 0 13 Letters/U 0 0 1 1 1
++-NTOBJECTNAME _pong_BU5
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleB5	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleB6	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_BU4	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_BD6	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_BD7	setEventEnabled	0 1 2 3 4 5	0		
+1x1 Print" -48.25 -126.75 288.7 3 0 17 Letters/-plus 0 0 1 1 1
++-EVENT	0	1	onActivate	33	-1	_pong_BU1	fireRelay				
++-EVENT	1	1	onActivate	33	-1	_pong_BU2	fireRelay				
++-EVENT	2	1	onActivate	33	-1	_pong_BU3	fireRelay				
++-EVENT	3	1	onActivate	33	-1	_pong_BU4	fireRelay				
++-EVENT	4	1	onActivate	33	-1	_pong_BU5	fireRelay				
++-EVENT	5	1	onActivate	0	Self		setColorFX	3			
++-EVENT	6	1	onActivate	100	Self		setColorFX	0			
++-EVENT	7	1	onActivate	100	Self		cancelEvents				
+1x3F" -54.25 -134.75 290.9 1 0 16  0 0 1 1 1
+1x1 Print" -53.75 -134.75 288.7 0 0 13 Letters/U 0 0 1 1 1
++-NTOBJECTNAME _pong_AU4
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleA4	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleA5	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_AU3	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_AD5	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_AD6	setEventEnabled	0 1 2 3 4 5	0		
+45° Ramp 1x" -52.75 -126.5 291.1 0 0 13  0 0 1 1 1
+1x1" -52.75 -126.75 288.7 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _pong_PaddleB4
++-EVENT	0	1	onRelay	0	Self		setColor	15			
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onProjectileHit	0	-1	_pong_ScoreA	incrementPrintCount	1			
++-EVENT	3	1	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	1	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	0	onRelay	0	Self		setColor	16			
++-EVENT	6	0	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+1x1" -53.25 -130.75 288.7 0 0 15  3 0 1 1 1
+1x8" -53.25 -128.5 288.7 0 0 16  0 0 1 1 1
+1x1" -52.75 -134.75 288.7 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _pong_PaddleA4
++-EVENT	0	1	onRelay	0	Self		setColor	15			
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onProjectileHit	0	-1	_pong_ScoreB	incrementPrintCount	1			
++-EVENT	3	1	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	1	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	0	onRelay	0	Self		setColor	16			
++-EVENT	6	0	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+45° Ramp 1x" -52.75 -135 291.1 2 0 13  0 0 1 1 1
+1x8" -53.25 -133 288.7 0 0 16  0 0 1 1 1
+1x1 Print" -54.25 -134.75 288.7 0 0 13 Letters/D 0 0 1 1 1
++-NTOBJECTNAME _pong_AD4
++-EVENT	0	1	onRelay	33	-1	_pong_PaddleA3	fireRelay				
++-EVENT	1	1	onRelay	33	-1	_pong_PaddleA4	fireRelay				
++-EVENT	2	1	onRelay	0	-1	_pong_AU3	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	1	onRelay	0	-1	_pong_AD5	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	1	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	1	onRelay	0	-1	_pong_AU2	setEventEnabled	0 1 2 3 4 5	0		
+1x1 Print" -48.25 -134.75 288.7 3 0 17 Letters/-plus 0 0 1 1 1
++-EVENT	0	1	onActivate	33	-1	_pong_AU1	fireRelay				
++-EVENT	1	1	onActivate	33	-1	_pong_AU2	fireRelay				
++-EVENT	2	1	onActivate	33	-1	_pong_AU3	fireRelay				
++-EVENT	3	1	onActivate	33	-1	_pong_AU4	fireRelay				
++-EVENT	4	1	onActivate	33	-1	_pong_AU5	fireRelay				
++-EVENT	5	1	onActivate	0	Self		setColorFX	3			
++-EVENT	6	1	onActivate	100	Self		setColorFX	0			
++-EVENT	7	1	onActivate	0	Self		cancelEvents				
+1x1 Print" -54.25 -126.75 288.7 2 0 13 Letters/D 0 0 1 1 1
++-NTOBJECTNAME _pong_BD4
++-EVENT	0	1	onRelay	33	-1	_pong_PaddleB3	fireRelay				
++-EVENT	1	1	onRelay	33	-1	_pong_PaddleB4	fireRelay				
++-EVENT	2	1	onRelay	0	-1	_pong_BU3	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	1	onRelay	0	-1	_pong_BD5	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	1	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	1	onRelay	0	-1	_pong_BU2	setEventEnabled	0 1 2 3 4 5	0		
+1x1 Print" -53.75 -126.75 288.7 2 0 13 Letters/U 0 0 1 1 1
++-NTOBJECTNAME _pong_BU4
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleB4	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleB5	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_BU3	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_BD5	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_BD6	setEventEnabled	0 1 2 3 4 5	0		
+1x3F" -54.25 -126.75 290.9 1 0 16  0 0 1 1 1
+1x1 Print" -54.25 -126.75 289.3 2 0 13 Letters/D 0 0 1 1 1
++-NTOBJECTNAME _pong_BD3
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleB2	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleB3	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_BU2	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_BD4	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_BU1	setEventEnabled	0 1 2 3 4 5	0		
+2x8F" -53 -133 291.5 0 0 13  0 0 1 1 1
+1x1 Print" -54.25 -134.75 289.3 0 0 13 Letters/D 0 0 1 1 1
++-NTOBJECTNAME _pong_AD3
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleA2	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleA3	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_AU2	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_AD4	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_AU1	setEventEnabled	0 1 2 3 4 5	0		
+1x8" -53.25 -133 289.3 0 0 16  0 0 1 1 1
+1x8" -53.25 -128.5 289.3 0 0 16  0 0 1 1 1
+1x1 Print" -53.75 -126.75 290.5 2 0 13 Letters/U 0 0 1 1 1
++-NTOBJECTNAME _pong_BU1
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleB1	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleB2	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_BU0	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_BD2	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_BD3	setEventEnabled	0 1 2 3 4 5	0		
+1x1 Print" -54.25 -126.75 290.5 2 0 13 Letters/X 0 0 1 1 1
++-NTOBJECTNAME _pong_BD7
+25° Ramp 1x" -54.25 -134.75 291.3 3 0 16  0 0 1 1 1
+1x1 Print" -53.75 -134.75 289.3 0 0 13 Letters/U 0 0 1 1 1
++-NTOBJECTNAME _pong_AU3
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleA3	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleA4	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_AU2	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_AD4	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_AD5	setEventEnabled	0 1 2 3 4 5	0		
+1x1" -52.75 -126.75 289.3 0 0 15  3 0 1 1 1
++-NTOBJECTNAME _pong_PaddleB3
++-EVENT	0	0	onRelay	0	Self		setColor	15			
++-EVENT	1	0	onRelay	0	Self		setColorFX	3			
++-EVENT	2	0	onProjectileHit	0	-1	_pong_ScoreA	incrementPrintCount	1			
++-EVENT	3	0	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	0	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	1	onRelay	0	Self		setColor	16			
++-EVENT	6	1	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+1x1 Print" -54.25 -134.75 290.5 0 0 13 Letters/X 0 0 1 1 1
++-NTOBJECTNAME _pong_AD7
+1x1" -52.75 -134.75 289.3 0 0 15  3 0 1 1 1
++-NTOBJECTNAME _pong_PaddleA3
++-EVENT	0	0	onRelay	0	Self		setColor	15			
++-EVENT	1	0	onRelay	0	Self		setColorFX	3			
++-EVENT	2	0	onProjectileHit	0	-1	_pong_ScoreB	incrementPrintCount	1			
++-EVENT	3	0	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	0	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	1	onRelay	0	Self		setColor	16			
++-EVENT	6	1	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+1x1 Print" -53.75 -126.75 289.3 2 0 13 Letters/U 0 0 1 1 1
++-NTOBJECTNAME _pong_BU3
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleB3	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleB4	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_BU2	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_BD4	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_BD5	setEventEnabled	0 1 2 3 4 5	0		
+1x1" -52.75 -126.75 290.5 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _pong_PaddleB1
++-EVENT	0	1	onRelay	0	Self		setColor	15			
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onProjectileHit	0	-1	_pong_ScoreA	incrementPrintCount	1			
++-EVENT	3	1	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	1	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	0	onRelay	0	Self		setColor	16			
++-EVENT	6	0	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+2x8F" -53 -128.5 291.5 0 0 13  0 0 1 1 1
+25° Ramp 1x" -54.25 -126.75 291.3 3 0 16  0 0 1 1 1
+1x1 Print" -53.75 -134.75 290.5 0 0 13 Letters/U 0 0 1 1 1
++-NTOBJECTNAME _pong_AU1
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleA1	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleA2	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_AU0	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_AD2	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_AD3	setEventEnabled	0 1 2 3 4 5	0		
+1x1" -52.75 -134.75 290.5 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _pong_PaddleA1
++-EVENT	0	1	onRelay	0	Self		setColor	15			
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onProjectileHit	0	-1	_pong_ScoreB	incrementPrintCount	1			
++-EVENT	3	1	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	1	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	0	onRelay	0	Self		setColor	16			
++-EVENT	6	0	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+1x1" -53.25 -130.75 289.3 0 0 15  3 0 1 1 1
+1x1" -53.25 -130.75 289.9 0 0 15  3 0 1 1 1
+1x1" -52.75 -126.75 289.9 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _pong_PaddleB2
++-EVENT	0	1	onRelay	0	Self		setColor	15			
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onProjectileHit	0	-1	_pong_ScoreA	incrementPrintCount	1			
++-EVENT	3	1	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	1	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	0	onRelay	0	Self		setColor	16			
++-EVENT	6	0	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+1x8" -53.25 -133 291.1 0 0 16  0 0 1 1 1
+1x1" -52.75 -128.25 291.1 0 0 13  0 0 1 1 1
+1x1" -52.75 -134.75 289.9 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _pong_PaddleA2
++-EVENT	0	1	onRelay	0	Self		setColor	15			
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onProjectileHit	0	-1	_pong_ScoreB	incrementPrintCount	1			
++-EVENT	3	1	onProjectileHit	0	Projectile		Explode				
++-EVENT	4	1	onProjectileHit	33	-1	_pong_Serve	fireRelay				
++-EVENT	5	0	onRelay	0	Self		setColor	16			
++-EVENT	6	0	onRelay	0	Self		setColorFX	0			
++-EVENT	7	1	onRelay	0	Self		toggleEventEnabled	0 1 2 3 4 5 6			
++-EVENT	8	1	onActivate	33	Self		fireRelay				
+1x1 Print" -53.75 -126.75 289.9 2 0 13 Letters/U 0 0 1 1 1
++-NTOBJECTNAME _pong_BU2
++-EVENT	0	1	onRelay	33	-1	_pong_PaddleB2	fireRelay				
++-EVENT	1	1	onRelay	33	-1	_pong_PaddleB3	fireRelay				
++-EVENT	2	1	onRelay	0	-1	_pong_BU1	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	1	onRelay	0	-1	_pong_BD3	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	1	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	1	onRelay	0	-1	_pong_BD4	setEventEnabled	0 1 2 3 4 5	0		
+1x8" -53.25 -128.5 289.9 0 0 16  0 0 1 1 1
+1x1" -52.75 -128.75 291.1 0 0 13  0 0 1 1 1
+1x1" -52.75 -127.75 291.1 0 0 13  0 0 1 1 1
+1x1" -52.75 -129.25 291.1 0 0 13  0 0 1 1 1
+1x8" -53.25 -133 289.9 0 0 16  0 0 1 1 1
+1x2F" -52.75 -127.5 291.7 0 0 27  3 0 1 1 1
++-NTOBJECTNAME _pong_WinLightB
++-LIGHT Alarm" 
+1x8" -53.25 -128.5 291.1 0 0 16  0 0 1 1 1
+1x1" -52.75 -129.75 291.1 0 0 13  0 0 1 1 1
+1x1" -52.75 -134.25 291.1 0 0 13  0 0 1 1 1
+1x2F" -52.75 -134 291.7 0 0 27  0 0 1 1 1
++-NTOBJECTNAME _pong_WinLightA
+1x1" -52.75 -130.25 291.1 0 0 13  0 0 1 1 1
+1x1" -52.75 -133.75 291.1 0 0 13  0 0 1 1 1
+1x1" -52.75 -133.25 291.1 0 0 13  0 0 1 1 1
+1x1" -52.75 -131.25 291.1 0 0 13  0 0 1 1 1
+1x1" -52.75 -132.75 291.1 0 0 13  0 0 1 1 1
+1x1" -52.75 -131.75 291.1 0 0 13  0 0 1 1 1
+1x1" -52.75 -132.25 291.1 0 0 13  0 0 1 1 1
+1x1 Print" -54.25 -134.75 289.9 0 0 13 Letters/D 0 0 1 1 1
++-NTOBJECTNAME _pong_AD2
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleA1	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleA2	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_AU1	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_AD3	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_AU0	setEventEnabled	0 1 2 3 4 5	0		
+1x1" -52.75 -127.25 291.1 0 0 13  0 0 1 1 1
+1x1 Print" -54.25 -126.75 289.9 2 0 13 Letters/D 0 0 1 1 1
++-NTOBJECTNAME _pong_BD2
++-EVENT	0	0	onRelay	33	-1	_pong_PaddleB1	fireRelay				
++-EVENT	1	0	onRelay	33	-1	_pong_PaddleB2	fireRelay				
++-EVENT	2	0	onRelay	0	-1	_pong_BU1	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	0	onRelay	0	-1	_pong_BD3	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	0	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	0	onRelay	0	-1	_pong_BU0	setEventEnabled	0 1 2 3 4 5	0		
+1x1 Print" -53.75 -134.75 289.9 0 0 13 Letters/U 0 0 1 1 1
++-NTOBJECTNAME _pong_AU2
++-EVENT	0	1	onRelay	33	-1	_pong_PaddleA2	fireRelay				
++-EVENT	1	1	onRelay	33	-1	_pong_PaddleA3	fireRelay				
++-EVENT	2	1	onRelay	0	-1	_pong_AU1	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	3	1	onRelay	0	-1	_pong_AD3	setEventEnabled	0 1 2 3 4 5	1		
++-EVENT	4	1	onRelay	0	Self		setEventEnabled	0 1 2 3 4 5	0		
++-EVENT	5	1	onRelay	0	-1	_pong_AD4	setEventEnabled	0 1 2 3 4 5	0		
+1x1" -53.25 -133.25 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -131.25 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -128.25 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -127.75 290.5 0 0 16  0 0 1 1 1
+1x1 Print" -53.25 -129.75 290.5 3 0 16 Letters/0 0 0 1 1 1
++-NTOBJECTNAME _pong_ScoreB
++-EVENT	0	1	onPrintCountOverFlow	0	-1	_pong_WinLightB	setLight	AlarmLightA			
++-EVENT	1	1	onPrintCountOverFlow	0	-1	_pong_Bumper	setEventEnabled	0	1		
++-EVENT	2	1	onPrintCountOverFlow	0	-1	_pong_WinLightB	setColorFX	3			
+1x1 Print" -53.25 -131.75 290.5 3 0 16 Letters/4 0 0 1 1 1
++-NTOBJECTNAME _pong_ScoreA
++-EVENT	0	1	onPrintCountOverFlow	0	-1	_pong_WinLightA	setLight	AlarmLightA			
++-EVENT	1	1	onPrintCountOverFlow	0	-1	_pong_Bumper	setEventEnabled	0	1		
++-EVENT	2	1	onPrintCountOverFlow	0	-1	_pong_WinLightA	setColorFX	3			
+1x1" -53.25 -134.25 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -127.25 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -129.25 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -134.75 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -126.75 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -132.75 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -132.25 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -130.75 290.5 0 0 15  3 0 1 1 1
+1x1" -53.25 -130.25 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -128.75 290.5 0 0 16  0 0 1 1 1
+1x1" -53.25 -133.75 290.5 0 0 16  0 0 1 1 1
+1x2" -53 -130.75 291.1 1 0 13  0 0 1 1 1
+1x2F" -53 -130.75 291.5 1 0 13  0 0 1 1 1

@@ -1,0 +1,8 @@
+none
+helmet
+pointyHelmet
+flareHelmet
+scoutHat
+bicorn
+copHat
+knitHat

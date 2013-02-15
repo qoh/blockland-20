@@ -1,0 +1,637 @@
+This is a Blockland save file.  You probably shouldn't modify it cause you'll screw it up.
+1
+
+0.898039 0.000000 0.000000 1.000000
+0.898039 0.898039 0.000000 1.000000
+0.000000 0.498039 0.247059 1.000000
+0.200000 0.000000 0.800000 1.000000
+0.898039 0.898039 0.898039 1.000000
+0.749020 0.749020 0.749020 1.000000
+0.498039 0.498039 0.498039 1.000000
+0.200000 0.200000 0.200000 1.000000
+0.392157 0.192157 0.000000 1.000000
+0.901961 0.337255 0.078431 1.000000
+0.749020 0.176471 0.482353 1.000000
+0.384314 0.000000 0.113725 1.000000
+0.129412 0.266667 0.266667 1.000000
+0.000000 0.137255 0.329412 1.000000
+0.101961 0.458824 0.764706 1.000000
+1.000000 1.000000 1.000000 1.000000
+0.078431 0.078431 0.078431 1.000000
+1.000000 1.000000 1.000000 0.247059
+0.921569 0.513726 0.674510 1.000000
+1.000000 0.603922 0.419608 1.000000
+1.000000 0.874510 0.611765 1.000000
+0.956863 0.874510 0.784314 1.000000
+0.784314 0.921569 0.486275 1.000000
+0.537255 0.694118 0.549020 1.000000
+0.556863 0.929412 0.956863 1.000000
+0.694118 0.658824 0.901961 1.000000
+0.874510 0.556863 0.956863 1.000000
+0.666667 0.000000 0.000000 0.698039
+1.000000 0.498039 0.000000 0.698039
+0.988235 0.956863 0.000000 0.698039
+0.000000 0.470588 0.192157 0.698039
+0.000000 0.200000 0.639216 0.698039
+0.592157 0.156863 0.392157 0.694118
+0.549020 0.698039 1.000000 0.698039
+0.847059 0.847059 0.847059 0.698039
+0.098039 0.098039 0.098039 0.698039
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+1.000000 0.000000 1.000000 0.000000
+Linecount 120
+16x16 Base" 59 -64.5 286.5 0 1 6  0 0 1 1 1
+1x10" 59 -61.75 286.9 1 0 16  0 0 1 1 1
+1x10" 59 -62.25 286.9 1 0 16  0 0 1 1 1
+1x1x5" 56.75 -61.75 288.7 0 0 16  0 0 1 1 1
+1x1x5" 57.25 -61.75 288.7 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _sequencerStart
++-EVENT	0	1	onRelay	100	Self		fireRelayEast				
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onRelay	100	Self		setColorFX	0			
++-EVENT	3	1	onRelay	0	Self		fireRelaySouth				
++-EVENT	4	1	onRelay	0	Self		setColor	15			
++-EVENT	5	1	onRelay	100	Self		setColor	16			
+1x1F" 60.75 -62.25 287.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_00_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1" 56.75 -62.25 287.5 0 0 16  0 0 1 1 1
+1x1x5" 57.75 -61.75 288.7 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _sequencerBack
++-EVENT	0	1	onRelay	100	Self		fireRelayEast				
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onRelay	100	Self		setColorFX	0			
++-EVENT	3	1	onRelay	0	Self		fireRelaySouth				
++-EVENT	4	1	onRelay	0	Self		setColor	15			
++-EVENT	5	1	onRelay	100	Self		setColor	16			
+1x1F" 57.25 -62.25 287.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_00_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.25 -62.25 287.3 0 0 27  3 0 1 1 1
++-EVENT	0	1	onRelay	0	Self		playSound	Synth_00_Sound			
++-EVENT	1	0	onActivate	0	Self		setColorFX	3			
++-EVENT	2	1	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1x5" 61.25 -61.75 288.7 0 0 16  0 0 1 1 1
+1x1F" 57.75 -62.25 287.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_00_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.75 -62.25 287.3 0 0 27  3 0 1 1 1
++-EVENT	0	1	onRelay	0	Self		playSound	Synth_00_Sound			
++-EVENT	1	0	onActivate	0	Self		setColorFX	3			
++-EVENT	2	1	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1x5" 58.75 -61.75 288.7 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _sequencerBack
++-EVENT	0	1	onRelay	100	Self		fireRelayEast				
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onRelay	100	Self		setColorFX	0			
++-EVENT	3	1	onRelay	0	Self		fireRelaySouth				
++-EVENT	4	1	onRelay	0	Self		setColor	15			
++-EVENT	5	1	onRelay	100	Self		setColor	16			
+1x1" 61.25 -62.25 287.5 0 0 16  0 0 1 1 1
+1x1x5" 60.75 -61.75 288.7 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _sequencerBack
++-EVENT	0	1	onRelay	100	-1	_sequencerStart	fireRelay				
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onRelay	100	Self		setColorFX	0			
++-EVENT	3	1	onRelay	0	Self		fireRelaySouth				
++-EVENT	4	1	onRelay	0	Self		setColor	15			
++-EVENT	5	1	onRelay	100	Self		setColor	16			
+1x1F" 58.25 -62.25 287.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_00_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 287.3 0 0 27  3 0 1 1 1
++-EVENT	0	1	onRelay	0	Self		playSound	Synth_00_Sound			
++-EVENT	1	0	onActivate	0	Self		setColorFX	3			
++-EVENT	2	1	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1x5" 59.25 -61.75 288.7 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _sequencerBack
++-EVENT	0	1	onRelay	100	Self		fireRelayEast				
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onRelay	100	Self		setColorFX	0			
++-EVENT	3	1	onRelay	0	Self		fireRelaySouth				
++-EVENT	4	1	onRelay	0	Self		setColor	15			
++-EVENT	5	1	onRelay	100	Self		setColor	16			
+1x1x5" 60.25 -61.75 288.7 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _sequencerBack
++-EVENT	0	1	onRelay	100	Self		fireRelayEast				
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onRelay	100	Self		setColorFX	0			
++-EVENT	3	1	onRelay	0	Self		fireRelaySouth				
++-EVENT	4	1	onRelay	0	Self		setColor	15			
++-EVENT	5	1	onRelay	100	Self		setColor	16			
+1x1x5" 58.25 -61.75 288.7 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _sequencerBack
++-EVENT	0	1	onRelay	100	Self		fireRelayEast				
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onRelay	100	Self		setColorFX	0			
++-EVENT	3	1	onRelay	0	Self		fireRelaySouth				
++-EVENT	4	1	onRelay	0	Self		setColor	15			
++-EVENT	5	1	onRelay	100	Self		setColor	16			
+1x1x5" 59.75 -61.75 288.7 0 0 16  0 0 1 1 1
++-NTOBJECTNAME _sequencerBack
++-EVENT	0	1	onRelay	100	Self		fireRelayEast				
++-EVENT	1	1	onRelay	0	Self		setColorFX	3			
++-EVENT	2	1	onRelay	100	Self		setColorFX	0			
++-EVENT	3	1	onRelay	0	Self		fireRelaySouth				
++-EVENT	4	1	onRelay	0	Self		setColor	15			
++-EVENT	5	1	onRelay	100	Self		setColor	16			
+1x1F" 58.75 -62.25 287.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_00_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.75 -62.25 287.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_01_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.25 -62.25 287.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_01_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 287.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_01_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.25 -62.25 287.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_01_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.25 -62.25 287.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_01_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1" 61.25 -62.25 288.1 0 0 16  0 0 1 1 1
+1x1 Print" 56.75 -62.25 288.1 0 0 16 Letters/X 0 0 1 1 1
++-EVENT	0	1	onActivate	0	-1	_sequencerBack	cancelEvents				
++-EVENT	1	1	onActivate	0	-1	_sequencerStart	cancelEvents				
++-EVENT	2	1	onActivate	0	-1	_sequencerBack	setColorFX	0			
++-EVENT	3	1	onActivate	0	-1	_sequencerStart	setColorFX	0			
++-EVENT	4	1	onActivate	0	Self		playSound	Beep_Key_Sound			
++-EVENT	5	1	onActivate	0	-1	_sequencerBack	setColor	16			
++-EVENT	6	1	onActivate	0	-1	_sequencerStart	setColor	16			
+1x1F" 57.75 -62.25 287.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_01_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.75 -62.25 287.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_01_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.75 -62.25 287.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_01_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1" 56.75 -62.25 288.7 0 0 16  0 0 1 1 1
+1x1F" 60.75 -62.25 287.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_02_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.75 -62.25 287.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_02_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.25 -62.25 287.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_02_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.25 -62.25 287.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_02_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.25 -62.25 287.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_02_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 287.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_02_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.75 -62.25 287.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_02_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.75 -62.25 287.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_02_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1" 61.25 -62.25 288.7 0 0 16  0 0 1 1 1
+1x1F" 59.75 -62.25 287.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_03_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.75 -62.25 287.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_03_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 287.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_03_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1" 61.25 -62.25 289.3 0 0 16  0 0 1 1 1
+1x1F" 58.25 -62.25 287.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_03_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.75 -62.25 287.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_03_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.25 -62.25 287.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_03_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.25 -62.25 287.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_03_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1 Print" 56.75 -62.25 289.3 0 0 16 Letters/-greater_than 0 0 1 1 1
++-EVENT	0	1	onActivate	33	-1	_sequencerStart	fireRelay				
++-EVENT	1	1	onActivate	0	Self		playSound	Beep_Key_Sound			
+1x1F" 58.75 -62.25 287.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_03_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.25 -62.25 288.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_04_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1" 61.25 -62.25 289.9 0 0 16  0 0 1 1 1
+1x1F" 57.25 -62.25 288.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_04_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.75 -62.25 288.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_04_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.25 -62.25 288.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_04_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.75 -62.25 288.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_04_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 288.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_04_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.75 -62.25 288.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_04_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.75 -62.25 288.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_04_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1" 56.75 -62.25 289.9 0 0 16  0 0 1 1 1
+1x1F" 60.25 -62.25 288.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_05_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.25 -62.25 288.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_05_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.75 -62.25 288.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_05_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.25 -62.25 288.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_05_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 288.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_05_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.75 -62.25 288.3 0 0 27  3 0 1 1 1
++-EVENT	0	1	onRelay	0	Self		playSound	Synth_05_Sound			
++-EVENT	1	0	onActivate	0	Self		setColorFX	3			
++-EVENT	2	1	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.75 -62.25 288.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_05_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.75 -62.25 288.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_05_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.75 -62.25 288.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_06_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 288.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_06_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.75 -62.25 288.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_06_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.25 -62.25 288.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_06_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.25 -62.25 288.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_06_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.75 -62.25 288.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_06_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.75 -62.25 288.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_06_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.25 -62.25 288.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_06_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.75 -62.25 288.7 0 0 27  3 0 1 1 1
++-EVENT	0	1	onRelay	0	Self		playSound	Synth_07_Sound			
++-EVENT	1	0	onActivate	0	Self		setColorFX	3			
++-EVENT	2	1	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.75 -62.25 288.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_07_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 288.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_07_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.75 -62.25 288.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_07_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.75 -62.25 288.7 0 0 27  3 0 1 1 1
++-EVENT	0	1	onRelay	0	Self		playSound	Synth_07_Sound			
++-EVENT	1	0	onActivate	0	Self		setColorFX	3			
++-EVENT	2	1	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.25 -62.25 288.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_07_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.25 -62.25 288.7 0 0 27  3 0 1 1 1
++-EVENT	0	1	onRelay	0	Self		playSound	Synth_07_Sound			
++-EVENT	1	0	onActivate	0	Self		setColorFX	3			
++-EVENT	2	1	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.25 -62.25 288.7 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_07_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.25 -62.25 288.9 0 0 27  3 0 1 1 1
++-EVENT	0	1	onRelay	0	Self		playSound	Synth_08_Sound			
++-EVENT	1	0	onActivate	0	Self		setColorFX	3			
++-EVENT	2	1	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.25 -62.25 288.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_08_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.75 -62.25 288.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_08_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.75 -62.25 288.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_08_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.75 -62.25 288.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_08_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 288.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_08_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.75 -62.25 288.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_08_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.25 -62.25 288.9 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_08_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.25 -62.25 289.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_09_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.25 -62.25 289.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_09_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.75 -62.25 289.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_09_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.75 -62.25 289.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_09_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.25 -62.25 289.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_09_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.75 -62.25 289.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_09_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.75 -62.25 289.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_09_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 289.1 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_09_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.75 -62.25 289.3 0 0 27  3 0 1 1 1
++-EVENT	0	1	onRelay	0	Self		playSound	Synth_10_Sound			
++-EVENT	1	0	onActivate	0	Self		setColorFX	3			
++-EVENT	2	1	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.75 -62.25 289.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_10_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.75 -62.25 289.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_10_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.25 -62.25 289.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_10_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 289.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_10_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.25 -62.25 289.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_10_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.75 -62.25 289.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_10_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.25 -62.25 289.3 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_10_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.25 -62.25 289.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_11_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.75 -62.25 289.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_11_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.75 -62.25 289.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_11_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.75 -62.25 289.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_11_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 58.25 -62.25 289.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_11_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 59.75 -62.25 289.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_11_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 57.25 -62.25 289.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_11_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x1F" 60.25 -62.25 289.5 0 0 27  0 0 1 1 1
++-EVENT	0	0	onRelay	0	Self		playSound	Synth_11_Sound			
++-EVENT	1	1	onActivate	0	Self		setColorFX	3			
++-EVENT	2	0	onActivate	0	Self		setColorFX	0			
++-EVENT	3	1	onActivate	0	Self		toggleEventEnabled	0 1 2			
+1x8" 59 -62.25 289.9 1 0 16  0 0 1 1 1
