@@ -1,1 +1,1 @@
-wine ./Blockland.exe ptlaaxobimwroe
+wine ./blockland-20/Blockland.exe ptlaaxobimwroe
