@@ -1,7 +1,7 @@
 This package includes some add-ons that were not in the original vanilla v20 game.
 Here's a full listing in case you want a "as stock as possible" experience.
 
-* Support_LegacyServer - A tiny change which lets servers hosted from v20 show up on the master server.
+* Script_CustomMS - Replaces the master server with a custom one; simplifies finding v20 servers.
 * Brick_Doors - Default v21 add-on.
 * Brick_ModTer_BasicPack - Default v21 add-on.
 * Brick_ModTer_InvertedPack - Default v21 add-on.
@@ -13,3 +13,4 @@ Here's a full listing in case you want a "as stock as possible" experience.
 * Server_VehicleGore - Default v21 add-on.
 * Support_Doors - Default v21 add-on.
 * Support_LegacyDoors - Default v21 add-on.
+* Map_SFix - Copy of Slopes by Heedicalking that fixes discolored textures.
